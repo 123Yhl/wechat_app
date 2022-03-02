@@ -1,0 +1,124 @@
+/* miniprogram/pages/uploadInfo/uploadInfo.wxss */
+
+/* miniprogram/pages/publish/newPublish/newPublish.wxss */
+
+.top-subheading{
+  margin-left: 1.5%;
+  margin-top: 50rpx;
+  font-size: small;
+  font-weight: 400;
+  color: grey;
+}
+.text-background{
+  background-color: white;
+  text-align: left;
+  margin-top: 20rpx;
+  border-radius: 25rpx;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  border:1rpx solid black;
+}
+
+.text-background .text-input{
+  margin-top: 15rpx;
+  margin-left: 20rpx;
+  position: relative;
+}
+
+.picture-background{
+  background-color: white;
+  text-align: left;
+  margin-top: 20rpx;
+  border-radius: 25rpx;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  display: block;      /*让每一排换行*/
+  border:1rpx solid black;
+}
+
+.picture-background .picture-blank{ /*头顶占空白*/
+  height: 25rpx;
+}
+
+.picture-background .picture-layout{
+  display: inline-block;  /*行内排列*/
+  margin-top: 5rpx;
+  margin-left: 15rpx;
+}
+.picture-background .picture-layout .picture{
+  position: relative;
+  width: 225rpx;
+  height: 225rpx;
+  /*margin-right: 5rpx;
+  margin-left: 5rpx;*/
+  /*display: inline-flex;*/
+}
+
+.choose-button{
+  /*margin-left: 25%;*/
+  margin-top: 20rpx;
+  height: 150rpx;
+  border-radius: 25rpx;
+  font-size: large;
+  display: inline-flex;
+  text-align: center;
+  border:1rpx solid black;
+}
+
+.choose-button-hover{
+  position: relative;
+  top: 3rpx;
+  left: 3rpx;
+  opacity: 0.9;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.15), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.choose-button-icon{
+  height: 125rpx;
+  width: 125rpx;
+  margin-left: 150rpx;
+}
+
+.choose-button-text{
+  display: block;
+}
+
+.choose-button-title{
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+}
+
+.choose-button-disc{
+  font-size: x-small;
+  font-weight: 400;
+}
+
+.middle-subheading{
+  margin-left: 1.5%;
+  margin-top: 20rpx;
+  font-size: small;
+  font-weight: 400;
+  color: grey;
+}
+
+.upload{
+  position: relative;
+  top: 30rpx;
+  bottom: 30rpx;
+  width: 95%;
+  text-align: center;
+  left: 2.5%;
+  right: 2.5%;
+  border:1rpx solid black;
+  border-radius: 5%;
+  height: 100rpx;
+  font-size:larger;
+  padding-top: 30rpx;
+  font-weight: 600;
+}
+
+
+
+
+
+

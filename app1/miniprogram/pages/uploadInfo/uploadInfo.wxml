@@ -1,0 +1,30 @@
+<!--miniprogram/pages/uploadInfo/uploadInfo.wxml-->
+<view class = "top-subheading" >Title:</view>
+<view style="height:80rpx" class="text-background">
+  <input style="height:40rpx" class = "text-input" confirm-type = "done" maxlength = "10" type="text" bindinput="bindInputTitle" placeholder="一个清爽的标题"></input>
+</view>
+
+<view class = "middle-subheading" >SelectedImage:(Longpress to Delete) o(*≧▽≦)ツ</view>
+
+<view style = "height : {{pictureShowHeight}}rpx" class="picture-background">
+  <view class="picture_-blank"></view>
+  <view wx:for = "{{pictureFilePaths}}" class="picture-layout">
+    <image bindtap="picturePreview" bindlongpress = "pictureDatele" data-index = "{{index}}" data-list = "{{pictureFilePaths}}" data-src = "{{item}}" class = "picture" src="{{item}}" mode="scaleToFill"></image>
+  </view>
+</view>
+
+<button bindtap="getPicture"   style="width:725rpx" class="choose-button" hover-class = "choose-button-hover">
+  <image class="choose-button-icon" src="/icon/picture.png"></image>
+  <view class="choose-button-text">
+    <view class="choose-button-title">选择图片</view>
+    <view class="choose-button-disc">拍照/相册</view>
+  </view>
+</button>
+
+<view class = "middle-subheading" >Description:</view>
+<view style="height : 300rpx" class="text-background">
+  <textarea class = "text-input" type="text" confirm-type = "done" bindinput="bindInputDescription" placeholder="描述一下吧~~~（140字以内）"></textarea>
+</view>
+
+
+<view class="upload" bindtap="confirmUpload">上传</view>

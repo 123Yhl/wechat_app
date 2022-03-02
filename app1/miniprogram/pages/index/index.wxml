@@ -1,0 +1,16 @@
+<view class="trial" >此处为主页部分</view>
+
+<view>
+  <navigator url="../uploadInfo/uploadInfo">跳转一波</navigator>
+</view>
+<image  class="imag" src="/icon/trail.jpg" mode="aspectFit" show-menu-by-longpress="">一张图片</image>
+
+<scroll-view scroll-x="true">
+  <view class="srcout">
+      <view class="srcbox">111</view>
+      <view class="srcbox">222</view>
+      <view class="srcbox">333</view>
+      <view class="srcbox">444</view>
+      <view class="srcbox">555</view>
+  </view>
+</scroll-view>

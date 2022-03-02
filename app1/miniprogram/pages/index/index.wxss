@@ -1,0 +1,14 @@
+.trial{width:100%; height: 100px;  background:red;align-content: center;}
+.trial:hover{background:yellow;}
+.srcbox{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin-right:2px;
+  flex: 0 0 100px;
+}
+.srcout{
+  border: 1px solid green;
+  display: flex;
+  flex-wrap: nowrap;
+}
